@@ -1,0 +1,258 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: korganizer
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/pim/korganizer
+
+Files: *
+Copyright: 2002, Adriaan de Groot <groot@kde.org>
+           2004-2014, Allen Winter
+           2004-2012, Allen Winter <winter@kde.org>
+           2006-2012, Allen Winter Ophavsret
+           2010, Andras Mantia <andras@kdab.com>
+           2012-2017, Autori KOrganizer
+           2012-2018, Autorzy KOrganizatora
+           2012-2018, Autoři aplikace KOrganizer
+           1998, Barry D Benowitz <b.benowitz@telesciences.com>
+           2004, Bo Thorsen <bo@sonofthor.dk>
+           2007, Bruno Virlet <bruno.virlet@gmail.com>
+           2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2000-2007, Cornelius Schumacher
+           2000-2004, Cornelius Schumacher <schumacher@kde.org>
+           2000-2007, Cornelius Schumacher,.
+           2002, Don Sanders <sanders@kde.org>
+           2001, Eitzenberger Thomas <thomas.eitzenberger@siemens.at>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-2011, Free Software Foundation, Inc
+           2005, KDE Russian transaltion team
+           2000-2007, KDE e.v
+           2000-2007, KDE-Nederlands team <i18n@kde.nl>
+           2012-2017, KOrganizer
+           2012-2018, KOrganizer authors
+           2012-2017, KOrganizer yazarları
+           2012-2018, KOrganizer 开发者
+           2012-2018, KOrganizer-Autoren
+           2012-2016, KOrganizeri autoridAutoriõigus
+           2012-2018, KOrganizerin tekijät
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2009-2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2012-2018, Korganizers upphovsmän
+           2007, Loïc Corbasson
+           2001, Matthias Hoelzer-Kluepfel <mhk@kde.org>
+           2000-2003, Meni Livne <livne@kde.org>
+           2002, Mike Pilone <mpilone@slac.com>
+           2010-2018, Montel Laurent <montel@kde.org>
+           1997-1999, Preston Brown
+           1997-1999, Preston Brown <pbrown@kde.org>
+           1997-1999, Preston Brown <preston.brown@yale.edu>
+           1997-1999, Preston Brown,.
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2004-2005, Reinhold Kainhofer
+           2003-2005, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2004-2005, Reinhold Kainhofer,.
+           2014-2015, Sandro Knauß <knauss@kolabsys.com>
+           2009, Sebastian Sauer <sebsauer@kdab.net>
+           2010-2012, Sergio Martins <iamsergio@gmail.com>
+           2010, Sérgio Martins <sergio.martins@kdab.com>
+           2000-2018, This_file_is_part_of_KDE
+           2008, Thomas McGuire <mcguire@kde.org>
+           2008, Thomas Thrainer <tom_t@gmx.at>
+           2005, Thomas Zander <zander@kde.org>
+           2007, Till Adam <adam@kde.org>
+           2003-2004, Tobias Koenig
+           2003-2004, Tobias Koenig <tokoe@kde.org>
+           2007, Volker Krause <vkrause@kde.org>
+           2012-2018, auteurs van KOrganizer
+           2012-2018, autores do KOrganizer
+           2012-2018, avtorji Korganizerja
+           2012-2018, els autors del KOrganizer
+           2012-2018, gli autori di KOrganizer
+           2012-2018, los autores de KOrganizer
+           2006-2012, एलन विंटर
+           2000-2007, कॉमिलीअस शुमाकर
+           1997-1999, प्रेस्टन ब्राऊन
+           2004-2005, रेनहोल्ड केईनहोफर
+License: GPL-2+
+
+Files: src/autotests/testkodaymatrix.cpp
+       src/autotests/testkodaymatrix.h
+       src/collectiongeneralpage.cpp
+       src/collectiongeneralpage.h
+       src/impl/korganizerifaceimpl.cpp
+       src/interfaces/korganizer/baseview.cpp
+       src/interfaces/korganizer/baseview.h
+       src/interfaces/korganizer/calendarviewbase.h
+       src/interfaces/korganizer/mainwindow.cpp
+       src/interfaces/korganizer/mainwindow.h
+       src/interfaces/korganizer/part.h
+       src/kcmdesignerfields.cpp
+       src/kcmdesignerfields.h
+       src/kontactplugin/korganizer/korg_uniqueapp.cpp
+       src/kontactplugin/korganizer/korg_uniqueapp.h
+       src/tests/testkcmdesignerfields.cpp
+       src/widgets/kitemiconcheckcombo.cpp
+       src/widgets/kitemiconcheckcombo.h
+Copyright: Author: Tobias Koenig <tokoe@kdab.com>
+           2004, Bo Thorsen <bo@sonofthor.dk>
+           1999-2004, Cornelius Schumacher <schumacher@kde.org>
+           2003, David Faure <faure@kde.org>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
+           2005, Rafal Rzepecki <divide@users.sourceforge.net>
+           2003-2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2011, Sérgio Martins <iamsergio@gmail.com>
+           2004, Tobias Koenig <tokoe@kde.org>
+           2010, Volker Krause <vkrause@kde.org>
+License: LGPL-2+
+
+Files: doc/index.docbook
+       po/ca/docs/*
+       po/de/docs/*
+       po/es/docs/*
+       po/et/docs/*
+       po/it/docs/*
+       po/nl/docs/*
+       po/pt_BR/docs/*
+       po/sv/docs/*
+       po/uk/*
+Copyright: 2000, &Milos.Prudek;</para>
+           2005, Carlos Leonhard Woelz
+           2005, Carlos Leonhard Woelz <email
+           2004, J&uuml;rgen Nagel
+           2004, J&uuml;rgen Nagel <email
+           2001, Paul E. Ahlquist, Jr
+           2001, Paul E. Ahlquist, Jr <email
+           2000, Stefan Winter<email
+           2000-2010, The &kde; Developers</para>
+           2000-2010, de &kde;-ontwikkelaars</para>
+           2000, di &Milos.Prudek;</para>
+           2005, di Carlos Leonhard Woelz <email
+           2004, di Jürgen Nagel <email
+           2001, di Paul E. Ahlquist, Jr <email
+License: GFDL-1.2+
+
+Files: po/ca/korgac.po
+       po/ca@valencia/korgac.po
+       po/uk/korgac.po
+       po/uk/korganizer.po
+Copyright: 2004-2012, Allen Winter
+           2000-2007, Cornelius Schumacher
+           2012-2018, KOrganizer authors
+           1997-1999, Preston Brown
+           2004-2005, Reinhold Kainhofer
+           2002-2018, This_file_is_part_of_KDE
+           2003-2004, Tobias Koenig
+License: LGPL-2.1+3+KDEeV
+
+Files: src/autotests/koeventpopupmenutest.cpp
+       src/autotests/koeventpopupmenutest.h
+       src/views/collectionview/autotests/modeltest.cpp
+       src/views/collectionview/autotests/modeltest.h
+Copyright: 2014, Sandro Knauß <knauss@kolabsys.com>
+           2007, Trolltech ASA
+License: GPL-2
+
+Files: src/kontactplugin/korganizer/autotests/summaryeventtest.cpp
+       src/kontactplugin/korganizer/autotests/summaryeventtest.h
+Copyright: 2008, Thomas McGuire <mcguire@kde.org>
+License: LGPL-2+3+KDEeV
+
+Files: src/org.kde.korganizer.appdata.xml
+Copyright: KDE e.V.
+License: CC0-1.0
+
+Files: debian/*
+Copyright: 2009, Sune Vuorela <debian@pusling.com>
+License: LGPL-2+
+
+License: CC0-1.0
+ CC0 1.0 Universal
+ .
+ CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+ LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+ ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+ INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+ REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+ PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+ THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+ HEREUNDER.
+ .
+ The complete text of the Creative Commons 0 1.0 Universal
+ can be found in `/usr/share/common-licenses/CC0-1.0'.
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ The complete text of the GNU Free Documentation License version 1.2
+ can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 of the license.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at your
+ option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public
+ License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published
+ by the Free Software Foundation; either version 2 of the License or
+ ( at your option ) version 3 or, at the discretion of KDE e.V.
+ ( which shall act as a proxy as in section 14 of the GPLv3 ), any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2
+ can be found in `/usr/share/common-licenses/LGPL-2', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3'.

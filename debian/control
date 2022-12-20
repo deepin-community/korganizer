@@ -1,0 +1,83 @@
+Source: korganizer
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sandro Knauß <hefee@debian.org>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               kuserfeedback-dev (>= 1.0.0~),
+               libkf5akonadi-dev (>= 4:21.08.1~),
+               libkf5akonadicalendar-dev (>= 4:21.08.1~),
+               libkf5akonadicontact-dev (>= 4:21.08.1~),
+               libkf5akonadimime-dev (>= 4:21.08.1~),
+               libkf5akonadinotes-dev (>= 4:21.08.1~),
+               libkf5akonadisearch-dev (>= 4:21.08.1~),
+               libkf5calendarcore-dev (>= 5:5.83.0~),
+               libkf5calendarsupport-dev (>= 4:21.08.1~),
+               libkf5calendarutils-dev (>= 4:21.08.1~),
+               libkf5codecs-dev (>= 5.83.0~),
+               libkf5completion-dev (>= 5.68.0~),
+               libkf5config-dev (>= 5.83.0~),
+               libkf5configwidgets-dev (>= 5.83.0~),
+               libkf5contacts-dev (>= 5:5.83.0~),
+               libkf5coreaddons-dev (>= 5.83.0~),
+               libkf5crash-dev (>= 5.83.0~),
+               libkf5dbusaddons-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5eventviews-dev (>= 4:21.08.1~),
+               libkf5grantleetheme-dev (>= 21.08.1~),
+               libkf5holidays-dev (>= 1:5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5iconthemes-dev (>= 5.83.0~),
+               libkf5identitymanagement-dev (>= 21.08.1~),
+               libkf5incidenceeditor-dev (>= 21.08.1~),
+               libkf5itemviews-dev (>= 5.83.0~),
+               libkf5jobwidgets-dev (>= 5.83.0~),
+               libkf5kcmutils-dev (>= 5.83.0~),
+               libkf5kontactinterface-dev (>= 21.08.1~),
+               libkf5ldap-dev (>= 21.08.1~),
+               libkf5libkdepim-dev (>= 4:21.08.1~),
+               libkf5mailtransport-dev (>= 21.08.1~),
+               libkf5mime-dev (>= 21.08.1~),
+               libkf5newstuff-dev (>= 5.83.0~),
+               libkf5notifications-dev (>= 5.83.0~),
+               libkf5parts-dev (>= 5.83.0~),
+               libkf5pimcommon-dev (>= 4:21.08.1~),
+               libkf5pimtextedit-dev (>= 21.08.1~),
+               libkf5service-dev (>= 5.83.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               libkf5windowsystem-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libphonon4qt5-dev,
+               libx11-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+               qttools5-dev (>= 5.15.0~),
+               xauth,
+               xvfb,
+Standards-Version: 4.6.0
+Homepage: https://invent.kde.org/pim/korganizer
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/korganizer
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/korganizer.git
+Rules-Requires-Root: no
+
+Package: korganizer
+Architecture: any
+Depends: kdepim-runtime [amd64 arm64 armhf i386 mipsel],
+         ${misc:Depends},
+         ${shlibs:Depends},
+Homepage: http://kontact.kde.org/korganizer/
+Description: calendar and personal organizer
+ This package contains KOrganizer, a calendar and scheduling program.
+ .
+ KOrganizer aims to be a complete program for organizing appointments,
+ contacts, projects, etc. KOrganizer natively supports information interchange
+ with other calendar applications, through the industry standard vCalendar
+ personal data interchange file format. This eases the move from other
+ modern PIMs to KOrganizer.

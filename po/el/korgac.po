@@ -1,0 +1,470 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the korganizer package.
+#
+# Stelios <sstavra@gmail.com>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: korganizer\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-12 01:40+0000\n"
+"PO-Revision-Date: 2021-07-18 11:17+0300\n"
+"Last-Translator: Stelios <sstavra@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Stelios"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sstavra@gmail.com"
+
+#: alarmdialog.cpp:144
+#, kde-format
+msgctxt "@title:window"
+msgid "Reminders"
+msgstr "Υπενθυμίσεις"
+
+#: alarmdialog.cpp:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss Reminder"
+msgstr "Απόρριψη υπενθύμισης"
+
+#: alarmdialog.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for the selected incidences"
+msgstr "Απόρριψη υπενθυμίσεων για τα επιλεγμένα περιστατικά"
+
+#: alarmdialog.cpp:168
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to dismiss the currently selected incidence.  All non-"
+"selected non-incidences will be unaffected."
+msgstr ""
+"Πατήστε αυτό το κουμπί για να απορρίψετε το επιλεγμένο περιστατικό. Όλα τα "
+"μη-επιλεγμένα μη-περιστατικά δεν θα επηρεατούν."
+
+#: alarmdialog.cpp:171
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss All"
+msgstr "Απόρριψη όλων"
+
+#: alarmdialog.cpp:172
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for all listed incidences"
+msgstr "Απόρριψη των υπενθυμίσεων για όλα τα καταγεγραμμένα περιστατικά"
+
+#: alarmdialog.cpp:173
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Press this button to dismiss all the listed incidences."
+msgstr ""
+"Πατήστε αυτό το κουμπί για να απορρίψετε όλα τα καταγεγραμμένα περιστατικά"
+
+#: alarmdialog.cpp:174
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "Επεξεργασία..."
+
+#: alarmdialog.cpp:175
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit the selected incidence"
+msgstr "Επεξεργασία του επιλεγμένου περιστατικού"
+
+#: alarmdialog.cpp:177
+#, kde-format
+msgctxt "@info::whatsthis"
+msgid ""
+"Press this button if you want to edit the selected incidence.  A dialog will "
+"popup allowing you to edit the incidence."
+msgstr ""
+"Πατήστε αυτό το κουμπί αν θέλετε να επεξεργαστείτε το επιλεγμένο "
+"περιστατικό. Ένας διάλογος θα αναπηδήσει επιτρέποντάς σας να επεξεργαστείτε "
+"το περιστατικό."
+
+#: alarmdialog.cpp:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Suspend"
+msgstr "Αναστολή"
+
+#: alarmdialog.cpp:181
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Suspend the reminders for the selected incidences by the specified interval"
+msgstr ""
+"Αναστολή των υπενθυμίσεων για τα επιλεγμένα περιστατικά στο δοσμένο διάστημα"
+
+#: alarmdialog.cpp:184
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to suspend the currently selected incidences.  The suspend "
+"interval is configurable by the Suspend duration settings."
+msgstr ""
+"Πατήστε αυτό το κουμπί για να αναστείλετε τα επιλεγμένα περιστατικά. Το "
+"διάστημα αναστολής είναι διαμορφώσιμο από τις ρυθμίσεις διάρκειας αναστολής."
+
+#: alarmdialog.cpp:197
+#, kde-format
+msgctxt "@label"
+msgid "Reminders: Clicking on the title toggles details for item"
+msgstr ""
+"Υπενθυμίσεις: Με κλικ στον τίτλο εναλλάσσει τις λεπτομέρειες για το "
+"αντικείμενο"
+
+#: alarmdialog.cpp:205
+#, kde-format
+msgctxt "@title:column reminder summary"
+msgid "Summary"
+msgstr "Περίληψη"
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column happens at date/time"
+msgid "Date Time"
+msgstr "Ημερομηνία Ώρα"
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column trigger date/time"
+msgid "Trigger Time"
+msgstr "Χρόνος εκτέλεσης"
+
+#: alarmdialog.cpp:211
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The event or to-do summary"
+msgstr "Η περίληψη του γεγονότος ή της εργασίας"
+
+#: alarmdialog.cpp:214
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The reminder is set for this date/time"
+msgstr "Η υπενθύμιση έχει ρυθμιστεί για αυτήν την ημερομηνία/ώρα"
+
+#: alarmdialog.cpp:218
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The date/time the reminder was triggered"
+msgstr "Η ημερομηνία/ώρα εκτέλεσης της υπενθύμισης"
+
+#: alarmdialog.cpp:233
+#, kde-kuit-format
+msgctxt "@info default incidence details string"
+msgid ""
+"<emphasis>Select an event or to-do from the list above to view its details "
+"here.</emphasis>"
+msgstr ""
+"<emphasis>Επιλέξτε ένα γεγονός ή εργασία από την παραπάνω λίστα για να δείτε "
+"τις λεπτομέρειες εδώ.</emphasis>"
+
+#: alarmdialog.cpp:245
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Suspend &duration:"
+msgstr "&Διάρκεια αναστολής:"
+
+#: alarmdialog.cpp:252
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders by this amount of time"
+msgstr "Ανατολή των υπενθυμίσεων για τόσο χρόνο"
+
+#: alarmdialog.cpp:254
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended by this number "
+"of time units. You can choose the time units (typically minutes) in the "
+"adjacent selector."
+msgstr ""
+"Κάθε υπενθύμιση για τα επιλεγμένα περιστατικά θα ανασταλεί με τόσες χρονικές "
+"μονάδες. Μπορείτε να επιλέξετε τις χρονικές μονάδες (τυπικά λεπτά) στον "
+"διπλανό επιλογέα."
+
+#: alarmdialog.cpp:262
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "λεπτά"
+
+#: alarmdialog.cpp:263
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "ώρες"
+
+#: alarmdialog.cpp:264
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "ημέρες"
+
+#: alarmdialog.cpp:265
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of weeks"
+msgid "week(s)"
+msgstr "εβδομάδες"
+
+#: alarmdialog.cpp:266
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders using this time unit"
+msgstr "Αναστολή των υπενθυμίσεων με αυτήν τη χρονική μονάδα"
+
+#: alarmdialog.cpp:268
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended using this time "
+"unit. You can set the number of time units in the adjacent number entry "
+"input."
+msgstr ""
+"Κάθε υπενθύμιση για τα επιλεγμένα περιστατικά θα ανασταλεί με χρήση αυτής "
+"της χρονικής μονάδας. Μπορείτε να επιλέξετε το πλήθος των χρονικών μονάδων "
+"στο διπλανό πλαίσιο εγγραφής αριθμών."
+
+#: alarmdialog.cpp:457
+#, kde-format
+msgctxt "@info"
+msgid "\"%1\" is a read-only incidence so modifications are not possible."
+msgstr ""
+"Το «%1» είναι περιστατικό ανάγνωσης-μόνο και έτσι δεν είναι δυνατές οι "
+"τροποποιήσεις."
+
+#: alarmdialog.cpp:463
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An internal error occurred attempting to modify \"%1\". Unsupported type."
+msgstr ""
+"Παρουσιάστηκε ένα εσωτερικό σφάλμα στην προσπάθεια τροποποίησης του «%1». Μη "
+"υποστηριζόμενος τύπος."
+
+#: alarmdialog.cpp:684
+#, kde-format
+msgctxt "@title"
+msgid "Reminder"
+msgstr "Υπενθύμιση"
+
+#: alarmdialog.cpp:686 alarmdialog.cpp:689
+#, kde-format
+msgctxt "@title"
+msgid "Reminder: %1"
+msgstr "Υπενθύμιση: %1"
+
+#: alarmdialog.cpp:705
+#, kde-format
+msgctxt "@info email subject, error message"
+msgid "<warning>Failed to send the Email reminder for %1. %2</warning>"
+msgstr ""
+"<warning>Αποτυχία αποστολής της υπενθύμισης email για το %1. %2</warning>"
+
+#: alarmdialog.cpp:1000
+#, kde-format
+msgctxt "@info"
+msgid "Could not start KOrganizer so editing is not possible."
+msgstr "Αδυναμία εκκίνησης του KOrganizer έτσι η επεξεργασία δεν είναι δυνατή."
+
+#: alarmdialog.cpp:1008
+#, kde-format
+msgctxt "@info"
+msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
+msgstr ""
+"Παρουσιάστηκε ένα εσωτερικό σφάλμα του KOrganizer στην προσπάθεια "
+"τροποποίησης του «%1»"
+
+#: alarmdockwindow.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "KOrganizer Reminders"
+msgstr "Υπενθυμίσεις του KOrganizer"
+
+#: alarmdockwindow.cpp:52
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Suspend All Reminders"
+msgstr "Ανα&στολή όλων των υπενθυμίσεων"
+
+#: alarmdockwindow.cpp:53
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Dismiss All Reminders"
+msgstr "Α&πόρριψη όλων των υπενθυμίσεων"
+
+#: alarmdockwindow.cpp:57
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show &Reminders"
+msgstr "Εμ&φάνιση υπενθυμίσεων"
+
+#: alarmdockwindow.cpp:62
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Reminders"
+msgstr "Ενεργοποίηση υπενθυμίσεων"
+
+#: alarmdockwindow.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start Reminder Daemon at Login"
+msgstr "Έναρξη δαίμονα υπενθυμίσεων με την είσοδο στο σύστημα"
+
+#: alarmdockwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reminder Requests Focus"
+msgstr "Η υπενθύμιση απαιτεί εστίαση"
+
+#: alarmdockwindow.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"When this option is enabled the reminder dialog will automatically receive "
+"keyboard focus when it opens."
+msgstr ""
+"Όταν αυτή η επιλογή ενεργοποιηθεί ο διάλογος υπενθυμίσεων θα λάβει αυτόματα "
+"την εστίαση του πληκτρολογίου όταν ανοίξει."
+
+#: alarmdockwindow.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "There is 1 active reminder."
+msgid_plural "There are %1 active reminders."
+msgstr[0] "Υπάρχει 1 ενεργή υπενθύμιση."
+msgstr[1] "Υπάρχουν %1 ενεργές υπενθυμίσεις."
+
+#: alarmdockwindow.cpp:107
+#, kde-format
+msgctxt "@info:status"
+msgid "No active reminders."
+msgstr "Καμία ενεργή υπενθύμιση."
+
+#: alarmdockwindow.cpp:161
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to quit the KOrganizer reminder daemon?<nl/><note> you will not "
+"get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"Θέλετε να εγκαταλείψετε το δαίμονα υπενθυμίσεων του KOrganizer;<nl/><note> "
+"δεν θα έχετε υπενθυμίσεις ημερολογίου εκτός αν ο δαίμονας εκτελείται.</note>"
+
+#: alarmdockwindow.cpp:163 alarmdockwindow.cpp:174
+#, kde-format
+msgctxt "@title:window"
+msgid "Close KOrganizer Reminder Daemon"
+msgstr "Κλείσιμο του δαίμονα υπενθυμίσεων του KOrganizer"
+
+#: alarmdockwindow.cpp:172
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to start the KOrganizer reminder daemon at login?<nl/><note> you "
+"will not get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"Θέλετε να ξεκινάει ο δαίμονας υπενθυμίσεων του KOrganizer με την είσοδο στο "
+"σύστημα;<nl/><note> δεν θα έχετε υπενθυμίσεις ημερολογίου εκτός εάν ο "
+"δάιμονας εκτελείται.</note>"
+
+#: alarmdockwindow.cpp:175
+#, kde-format
+msgctxt "@action:button start the reminder daemon"
+msgid "Start"
+msgstr "Έναρξη"
+
+#: alarmdockwindow.cpp:176
+#, kde-format
+msgctxt "@action:button do not start the reminder daemon"
+msgid "Do Not Start"
+msgstr "Να μην ξεκινήσει"
+
+#: korgacmain.cpp:36 korgacmain.cpp:38
+#, kde-format
+msgid "KOrganizer Reminder Daemon"
+msgstr "Δαίμων υπενθυμίσεων του KOrganizer"
+
+#: korgacmain.cpp:40
+#, kde-format
+msgid "(c) 2003 Cornelius Schumacher"
+msgstr "(c) 2003 Cornelius Schumacher"
+
+#: korgacmain.cpp:43
+#, kde-format
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: korgacmain.cpp:43 korgacmain.cpp:44
+#, kde-format
+msgid "Former Maintainer"
+msgstr "Πρώην συντηρητής"
+
+#: korgacmain.cpp:44
+#, kde-format
+msgid "Reinhold Kainhofer"
+msgstr "Reinhold Kainhofer"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Janitorial Staff"
+msgstr "Προσωπικό επιστασίας"
+
+#: mailclient.cpp:61 mailclient.cpp:102
+#, kde-format
+msgid "No attendees specified"
+msgstr "Δεν ορίστηκαν συμμετέχοντες"
+
+#: mailclient.cpp:119
+#, kde-format
+msgid "Free Busy Object"
+msgstr "Ελεύθερο απασχολημένο αντικείμενο"
+
+#: mailclient.cpp:144 mailclient.cpp:166
+#, kde-format
+msgid "Free Busy Message"
+msgstr "Ελεύθερο απασχολημένo μήνυμα"
+
+#: mailclient.cpp:199
+#, kde-format
+msgid "Unable to start the transport manager"
+msgstr "Αδυναμία έναρξης του διαχειριστή μεταφοράς"
+
+#: mailclient.cpp:227
+#, kde-format
+msgid "Unable to determine a mail transport"
+msgstr "Αδυναμία καθορισμού της μεταφοράς μηνύματος"
+
+#: mailclient.cpp:352
+#, kde-format
+msgid "Unable to queue the message in the outbox"
+msgstr "Αδυναμία αποστολής του μηνύματος στην ουρά των εξερχομένων"
+
+#~ msgctxt "@title:column reminder title"
+#~ msgid "Title"
+#~ msgstr "\"Τίτλος"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot load system tray icon."
+#~ msgstr "Αδυναμία φόρτωσης του εικονιδίου του πλαισίου συστήματος."

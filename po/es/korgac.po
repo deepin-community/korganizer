@@ -1,0 +1,502 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Javier Vinal <fjvinal@gmail.com>, 2013, 2014, 2015, 2016, 2018.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-12 01:40+0000\n"
+"PO-Revision-Date: 2021-07-12 13:12+0200\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 21.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Javier Viñal"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "fjvinal@gmail.com"
+
+#: alarmdialog.cpp:144
+#, kde-format
+msgctxt "@title:window"
+msgid "Reminders"
+msgstr "Recordatorios"
+
+#: alarmdialog.cpp:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss Reminder"
+msgstr "Descartar recordatorio"
+
+#: alarmdialog.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for the selected incidences"
+msgstr "Descarta los recordatorios para los eventos seleccionados"
+
+#: alarmdialog.cpp:168
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to dismiss the currently selected incidence.  All non-"
+"selected non-incidences will be unaffected."
+msgstr ""
+"Pulse este botón para descartar la incidencia seleccionada actualmente. "
+"Todas las no-incidencias no seleccionadas no se verán afectadas."
+
+#: alarmdialog.cpp:171
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss All"
+msgstr "Descartar todo"
+
+#: alarmdialog.cpp:172
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for all listed incidences"
+msgstr "Descarta los recordatorios para todas los eventos listados"
+
+#: alarmdialog.cpp:173
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Press this button to dismiss all the listed incidences."
+msgstr "Pulse este botón para descartar todas las incidencias listadas."
+
+#: alarmdialog.cpp:174
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "Editar..."
+
+#: alarmdialog.cpp:175
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit the selected incidence"
+msgstr "Edita la incidencia seleccionada"
+
+#: alarmdialog.cpp:177
+#, kde-format
+msgctxt "@info::whatsthis"
+msgid ""
+"Press this button if you want to edit the selected incidence.  A dialog will "
+"popup allowing you to edit the incidence."
+msgstr ""
+"Pulse este botón si quiere editar la incidencia seleccionada. Se presentará "
+"un diálogo que le permitirá editar la incidencia."
+
+#: alarmdialog.cpp:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Suspend"
+msgstr "Suspender"
+
+#: alarmdialog.cpp:181
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Suspend the reminders for the selected incidences by the specified interval"
+msgstr ""
+"Suspende los recordatorios para los eventos seleccionados durante el "
+"intervalo especificado"
+
+#: alarmdialog.cpp:184
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to suspend the currently selected incidences.  The suspend "
+"interval is configurable by the Suspend duration settings."
+msgstr ""
+"Pulse este botón para suspender la incidencia actualmente seleccionada. El "
+"intervalo de suspensión se puede configurar mediante las preferencias de "
+"duración de la suspensión."
+
+#: alarmdialog.cpp:197
+#, kde-format
+msgctxt "@label"
+msgid "Reminders: Clicking on the title toggles details for item"
+msgstr ""
+"Recordatorios: al pulsar sobre el título conmuta los detalles del elemento"
+
+#: alarmdialog.cpp:205
+#, kde-format
+msgctxt "@title:column reminder summary"
+msgid "Summary"
+msgstr "Resumen"
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column happens at date/time"
+msgid "Date Time"
+msgstr "Fecha y hora"
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column trigger date/time"
+msgid "Trigger Time"
+msgstr "Hora de activación"
+
+#: alarmdialog.cpp:211
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The event or to-do summary"
+msgstr "Resumen del evento o tarea pendiente"
+
+#: alarmdialog.cpp:214
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The reminder is set for this date/time"
+msgstr "El recordatorio está activado para esta fecha/hora"
+
+#: alarmdialog.cpp:218
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The date/time the reminder was triggered"
+msgstr "La fecha/hora de activación del recordatorio"
+
+#: alarmdialog.cpp:233
+#, kde-kuit-format
+msgctxt "@info default incidence details string"
+msgid ""
+"<emphasis>Select an event or to-do from the list above to view its details "
+"here.</emphasis>"
+msgstr ""
+"<emphasis>Seleccione un evento o tarea pendiente de la lista de arriba para "
+"ver sus detalles aquí.</emphasis>"
+
+#: alarmdialog.cpp:245
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Suspend &duration:"
+msgstr "&Duración de la suspensión:"
+
+#: alarmdialog.cpp:252
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders by this amount of time"
+msgstr "Suspende los recordatorios durante este período de tiempo"
+
+#: alarmdialog.cpp:254
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended by this number "
+"of time units. You can choose the time units (typically minutes) in the "
+"adjacent selector."
+msgstr ""
+"Cada recordatorio para las incidencias seleccionadas se suspenderá al cabo "
+"de este número de unidades de tiempo. Puede elegir las unidades de tiempo "
+"(normalmente minutos) en el selector anejo."
+
+#: alarmdialog.cpp:262
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "minuto(s)"
+
+#: alarmdialog.cpp:263
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "hora(s)"
+
+#: alarmdialog.cpp:264
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "día(s)"
+
+#: alarmdialog.cpp:265
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of weeks"
+msgid "week(s)"
+msgstr "semana(s)"
+
+#: alarmdialog.cpp:266
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders using this time unit"
+msgstr "Suspende los recordatorios que usan esta unidad de tiempo"
+
+#: alarmdialog.cpp:268
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended using this time "
+"unit. You can set the number of time units in the adjacent number entry "
+"input."
+msgstr ""
+"Cada recordatorio de las incidencias seleccionadas se suspenderá usando esta "
+"unidad de tiempo. Puede fijar el número de unidades de tiempo en el campo "
+"anejo de entrada numérica."
+
+#: alarmdialog.cpp:457
+#, kde-format
+msgctxt "@info"
+msgid "\"%1\" is a read-only incidence so modifications are not possible."
+msgstr ""
+"«%1» es una incidencia de solo lectura, por lo que no se puede modificar."
+
+#: alarmdialog.cpp:463
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An internal error occurred attempting to modify \"%1\". Unsupported type."
+msgstr ""
+"Ha ocurrido un error interno al intentar modificar «%1». Tipo no permitido."
+
+#: alarmdialog.cpp:684
+#, kde-format
+msgctxt "@title"
+msgid "Reminder"
+msgstr "Recordatorio"
+
+#: alarmdialog.cpp:686 alarmdialog.cpp:689
+#, kde-format
+msgctxt "@title"
+msgid "Reminder: %1"
+msgstr "Recordatorio: %1"
+
+#: alarmdialog.cpp:705
+#, kde-format
+msgctxt "@info email subject, error message"
+msgid "<warning>Failed to send the Email reminder for %1. %2</warning>"
+msgstr ""
+"<warning>No se ha podido enviar el recordatorio de correo electrónico para "
+"%1. %2</warning>"
+
+#: alarmdialog.cpp:1000
+#, kde-format
+msgctxt "@info"
+msgid "Could not start KOrganizer so editing is not possible."
+msgstr ""
+"No se ha podido iniciar KOrganizer por lo que la edición no es posible."
+
+#: alarmdialog.cpp:1008
+#, kde-format
+msgctxt "@info"
+msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
+msgstr "Ocurrió un error interno en KOrganizer al intentar modificar «%1»"
+
+#: alarmdockwindow.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "KOrganizer Reminders"
+msgstr "Recordatorios de KOrganizer"
+
+#: alarmdockwindow.cpp:52
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Suspend All Reminders"
+msgstr "&Suspender todos los recordatorios"
+
+#: alarmdockwindow.cpp:53
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Dismiss All Reminders"
+msgstr "&Descartar todos los recordatorios"
+
+#: alarmdockwindow.cpp:57
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show &Reminders"
+msgstr "Mostrar &recordatorios"
+
+#: alarmdockwindow.cpp:62
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Reminders"
+msgstr "Activar recordatorios"
+
+#: alarmdockwindow.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start Reminder Daemon at Login"
+msgstr "Iniciar el demonio del recordatorio al iniciar una sesión"
+
+#: alarmdockwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reminder Requests Focus"
+msgstr "Foco de las peticiones de recordatorios"
+
+#: alarmdockwindow.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"When this option is enabled the reminder dialog will automatically receive "
+"keyboard focus when it opens."
+msgstr ""
+"Cuando esta opción está activada, el diálogo de recordatorio recibirá "
+"automáticamente el foco del teclado al abrirse."
+
+#: alarmdockwindow.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "There is 1 active reminder."
+msgid_plural "There are %1 active reminders."
+msgstr[0] "Hay 1 recordatorio activo."
+msgstr[1] "Hay %1 recordatorios activos."
+
+#: alarmdockwindow.cpp:107
+#, kde-format
+msgctxt "@info:status"
+msgid "No active reminders."
+msgstr "No hay recordatorios activos."
+
+#: alarmdockwindow.cpp:161
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to quit the KOrganizer reminder daemon?<nl/><note> you will not "
+"get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"¿Sedea detener el demonio de recordatorios de KOrganizer?<nl/><note> Solo "
+"recibirá recordatorios de los calendarios cuando este demonio esté en "
+"ejecución.</note>"
+
+#: alarmdockwindow.cpp:163 alarmdockwindow.cpp:174
+#, kde-format
+msgctxt "@title:window"
+msgid "Close KOrganizer Reminder Daemon"
+msgstr "Cerrar el demonio del recordatorio de KOrganizer"
+
+#: alarmdockwindow.cpp:172
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to start the KOrganizer reminder daemon at login?<nl/><note> you "
+"will not get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"¿Sesea iniciar el demonio de recordatorios de KOrganizer al iniciar sesión?"
+"<nl/><note> Solo recibirá recordatorios de los calendarios cuando este "
+"demonio esté en ejecución.</note>"
+
+#: alarmdockwindow.cpp:175
+#, kde-format
+msgctxt "@action:button start the reminder daemon"
+msgid "Start"
+msgstr "Iniciar"
+
+#: alarmdockwindow.cpp:176
+#, kde-format
+msgctxt "@action:button do not start the reminder daemon"
+msgid "Do Not Start"
+msgstr "No comenzar"
+
+#: korgacmain.cpp:36 korgacmain.cpp:38
+#, kde-format
+msgid "KOrganizer Reminder Daemon"
+msgstr "Demonio de recordatorio para KOrganizer"
+
+#: korgacmain.cpp:40
+#, kde-format
+msgid "(c) 2003 Cornelius Schumacher"
+msgstr "© 2003 Cornelius Schumacher"
+
+#: korgacmain.cpp:43
+#, kde-format
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: korgacmain.cpp:43 korgacmain.cpp:44
+#, kde-format
+msgid "Former Maintainer"
+msgstr "Encargado anterior"
+
+#: korgacmain.cpp:44
+#, kde-format
+msgid "Reinhold Kainhofer"
+msgstr "Reinhold Kainhofer"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Janitorial Staff"
+msgstr "Personal de mantenimiento"
+
+#: mailclient.cpp:61 mailclient.cpp:102
+#, kde-format
+msgid "No attendees specified"
+msgstr "No se ha indicado ningún asistente"
+
+#: mailclient.cpp:119
+#, kde-format
+msgid "Free Busy Object"
+msgstr "Objeto de disponibilidad"
+
+#: mailclient.cpp:144 mailclient.cpp:166
+#, kde-format
+msgid "Free Busy Message"
+msgstr "Mensaje de disponibilidad"
+
+#: mailclient.cpp:199
+#, kde-format
+msgid "Unable to start the transport manager"
+msgstr "No se ha podido iniciar el gestor de transporte"
+
+#: mailclient.cpp:227
+#, kde-format
+msgid "Unable to determine a mail transport"
+msgstr "No se ha podido determinar un transporte de correo electrónico"
+
+#: mailclient.cpp:352
+#, kde-format
+msgid "Unable to queue the message in the outbox"
+msgstr "No se ha podido encolar el mensaje en la bandeja de salida"
+
+#~ msgctxt "@title:column reminder title"
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot load system tray icon."
+#~ msgstr "No se puede cargar el icono de la bandeja del sistema."
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Reset"
+#~ msgstr "Restaurar"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Reset the suspend time to the default value"
+#~ msgstr "Restaura el tiempo de suspensión al valor predeterminado"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Reset the suspend time to the default value"
+#~ msgstr "Restaura el tiempo de suspensión al valor predeterminado"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Set as Default"
+#~ msgstr "Establecer como predeterminado"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set the current suspend time as the new default"
+#~ msgstr ""
+#~ "Establece el tiempo actual de suspensión como el nuevo valor "
+#~ "predeterminado"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Press this button to set the current suspend time as the new default value"
+#~ msgstr ""
+#~ "Pulse este botón para establecer el tiempo actual de suspensión como el "
+#~ "nuevo valor predeterminado"
+
+#~ msgctxt "@label an ellipsis"
+#~ msgid "..."
+#~ msgstr "..."

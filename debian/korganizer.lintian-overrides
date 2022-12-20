@@ -1,0 +1,4 @@
+# private libraries
+korganizer: package-name-doesnt-match-sonames libkorganizer-core5 libkorganizer-interfaces5 libkorganizerprivate5
+# private library
+korganizer: no-symbols-control-file

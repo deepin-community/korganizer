@@ -1,0 +1,363 @@
+korganizer (4:21.08.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:44:06 +0800
+
+korganizer (4:21.08.1-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.1).
+  * Bump Standards-Version to 4.6.0, no change required.
+
+ -- Norbert Preining <norbert@preining.info>  Sat, 11 Sep 2021 07:24:07 +0900
+
+korganizer (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:22:53 +0900
+
+korganizer (4:21.04.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.3).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 09 Jul 2021 10:37:59 +0900
+
+korganizer (4:21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 06:13:06 +0900
+
+korganizer (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Eshat Cakar, George Kiagiadakis, Maximiliano Curia, Modestas
+    Vainius from the uploaders, thanks for your work on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 13 May 2021 09:46:43 +0900
+
+korganizer (4:20.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.5.1 (No changes needed).
+  * New upstream release (20.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Remove wrong line from lintian-override.
+  * Minimize the upstream GPG signing key.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Dec 2020 01:51:29 +0100
+
+korganizer (4:20.08.2-3) unstable; urgency=medium
+
+  * Add kuserfeedback-dev to B-D.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 26 Oct 2020 23:13:42 +0100
+
+korganizer (4:20.08.2-2) unstable; urgency=medium
+
+  * Team upload to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 20 Oct 2020 00:10:25 +0200
+
+korganizer (4:20.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Update Homepage link to point to new invent.kde.org
+  * Update field Source in debian/copyright to invent.kde.org move.
+  * Update repository related entries to metadata file.
+  * Add Bug-* entries to metadata file.
+  * Remove not needed Build-Depends.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 16 Oct 2020 00:53:51 +0200
+
+korganizer (4:20.04.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Explicitly add the gettext build dependency.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+  * Unregister the old /etc/xdg/korganizer.categories,
+    /etc/xdg/korganizer.knsrc, and /etc/xdg/korganizer.renamecategories
+    conffiles.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 22 Aug 2020 22:55:35 +0200
+
+korganizer (4:20.04.1-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (20.04.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 27 May 2020 00:01:24 +0200
+
+korganizer (4:20.04.0-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Update watch file to the new release-service location.
+  * Bump compat level to 13.
+  * Bump Standards-Version to 4.5.0 (No changes needed).
+  * Add Rules-Requires-Root field to control.
+  * New upstream release (20.04.0).
+  * Update build-deps and deps with the info from cmake.
+  * Set fields Upstream-Name, Upstream-Contact in debian/copyright.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Enable hardening all.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 13 May 2020 12:26:41 +0200
+
+korganizer (4:19.08.3-1) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.3).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 30 Nov 2019 22:56:15 +0100
+
+korganizer (4:19.08.2-1) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (19.08.2).
+  * Update build-deps and deps with the info from cmake.
+  * Remove breaks against kde-l10n packages.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 08 Nov 2019 10:42:45 +0100
+
+korganizer (4:18.08.3-3) unstable; urgency=medium
+
+    * Release to unstable.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 14 Nov 2019 23:55:09 +0100
+
+korganizer (4:18.08.3-2) experimental; urgency=medium
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.4.1 (No changes needed).
+  * Bump compat level to 12.
+  * Add myself to Uploaders.
+  * Delete not needed Breaks/Confilcts.
+  * Enforce depdendencies between KDEPIM packages to enable bundling.
+
+ -- Sandro Knauß <hefee@debian.org>  Sun, 06 Oct 2019 22:45:42 +0200
+
+korganizer (4:18.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * Bump Standards-Version to 4.3.0 (No changes needed).
+  * Removed testsuite autopkgtest.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 04 Feb 2019 16:04:27 +0100
+
+korganizer (4:18.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Bump Standards-Version to 4.2.1 (No changes needed).
+  * Follow stable releases in KDE again.
+  * New upstream release (18.08.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 02 Oct 2018 23:21:46 +0200
+
+korganizer (4:18.07.90-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * Update watch file to match unstable releases, too.
+  * New upstream release (18.07.90).
+  * Bump Standards-Version to 4.2.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update copyright file for new upstream.
+  * Remove not needed patches.
+
+ -- Sandro Knauß <hefee@debian.org>  Mon, 20 Aug 2018 15:55:40 +0200
+
+korganizer (4:17.12.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Backport upstream commit 9592053caa790eec669c08266f403b40746296b2 to fix
+    build with Qt 5.11; patch upstream_Add-missing-include.patch.
+  * Bump Standards-Version to 4.1.5, no changes required.
+  * Remove empty line at the end of changelog.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 31 Jul 2018 22:37:17 +0200
+
+korganizer (4:17.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.3).
+  * Update build-deps and deps with the info from cmake.
+  * use secure copyright format uri.
+  * small fixes in copyright file.
+
+ -- Sandro Knauß <hefee@debian.org>  Sat, 31 Mar 2018 18:26:37 +0200
+
+korganizer (4:17.12.2-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (17.12.2).
+  * Update Vcs links to salsa.
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file.
+  * Enable build tests (make them non-failing).
+  * Bump debhelper build-dep and compat to 11.
+
+ -- Sandro Knauß <hefee@debian.org>  Fri, 09 Mar 2018 15:14:57 +0100
+
+korganizer (4:17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Do not ship development symlinks of private libraries.
+  * Simplify watch file, and switch it to https.
+  * Remove not-installed file, no more useful.
+  * Remove the kontact, and libkdepim4 breaks/replaces, as they are no more
+    needed.
+  * Allow stderr in the 'testsuite' autopkgtest.
+  * Remove unused ${perl:Depends} substvar from korganizer.
+  * Update lintian overrides.
+  * Remove unused dh_makeshlibs override.
+  * Since kdepim-runtime is available only on few architectures (due to
+    QtWebEngine), limit the dependency on it to amd64 arm64 armhf i386 mipsel.
+  * Bump Standards-Version to 4.1.3, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 03 Jan 2018 12:48:14 +0100
+
+korganizer (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New revision
+  * Update uploaders list as requested by MIA team
+
+  [ Sandro Knauß ]
+  * New upstream release (17.08.3).
+  * Bump Standards-Version to 4.1.2 (No changes needed).
+  * Get rid of unnessary break/replaces of kde-l10n-(ast|eo).
+  * Add libx11-dev as Build-Dep.
+  * Bump debhelper build-dep and compat to 10.
+  * Set l10npkgs_firstversion_ok to 4:16.04.3-9~
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 21 Dec 2017 17:57:48 +0100
+
+korganizer (4:17.08.0-1) experimental; urgency=medium
+
+  * New upstream release (17.08.0)
+  * Editorial changes... Drop some of the things inherited from kdepim
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:08:32 +0200
+
+korganizer (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:38:17 +0000
+
+korganizer (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:23:33 +0000
+
+korganizer (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:23:11 +0000
+
+korganizer (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:22:15 +0000
+
+korganizer (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:05:38 +0000
+
+korganizer (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:49:36 +0000
+
+korganizer (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:01:11 +0000
+
+korganizer (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:23:22 +0000
+
+korganizer (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 22:08:58 +0000
+
+korganizer (4:16.11.90-0neon) xenial; urgency=medium
+
+  * Initial release based on the split of kdepim
+
+ -- Raymond Wooninck <tittiatcoke@gmail.com>  Mon, 12 Sep 2016 17:09:13 +0200
+kdepim (4:16.08.1-1~2.gbpb36d9f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b36d9f5ab35ffde3ed81e8616b1f61966d87f80b **
+
+  [ Maximiliano Curia ]
+  * Add libkf5akonadisearch-plugins dependency to kmail.
+    Thanks to Maria for reporting (Closes: 830563)
+  * Add new patch: akregator_crash_on_exit.patch.
+    Thanks to Ismael Bejarano for the backtrace and Sandro Knauß for the patch
+    (Closes: 836011)
+  * Update install files
+  * Add libkf5akonadisearch-plugins dependency to kmail.
+    Thanks to Maria for reporting (Closes: 830563)
+  * Add new patch: akregator_crash_on_exit.patch.
+    Thanks to Ismael Bejarano for the backtrace and Sandro Knauß for the patch
+    (Closes: 836011)
+  * Update install files
+  * Update changelog for 4:16.04.3-2~1.gbp1d9499 release
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 14:32:28 +0200

@@ -1,0 +1,477 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-07-12 01:40+0000\n"
+"PO-Revision-Date: 2018-01-31 11:18+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "صفا الفليج"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "safa1996alfulaij@gmail.com"
+
+#: alarmdialog.cpp:144
+#, kde-format
+msgctxt "@title:window"
+msgid "Reminders"
+msgstr "التّذكيرات"
+
+#: alarmdialog.cpp:165
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss Reminder"
+msgstr "أهمِل التّذكير"
+
+#: alarmdialog.cpp:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for the selected incidences"
+msgstr "أهمِل تذكيرات الحدوثات المحدّدة"
+
+#: alarmdialog.cpp:168
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to dismiss the currently selected incidence.  All non-"
+"selected non-incidences will be unaffected."
+msgstr ""
+
+#: alarmdialog.cpp:171
+#, kde-format
+msgctxt "@action:button"
+msgid "Dismiss All"
+msgstr "أهمِل الكلّ"
+
+#: alarmdialog.cpp:172
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Dismiss the reminders for all listed incidences"
+msgstr "أهمِل تذكيرات كلّ الحدوثات في القائمة"
+
+#: alarmdialog.cpp:173
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Dismiss the reminders for all listed incidences"
+msgctxt "@info:whatsthis"
+msgid "Press this button to dismiss all the listed incidences."
+msgstr "أهمِل تذكيرات كلّ الحدوثات في القائمة"
+
+#: alarmdialog.cpp:174
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "حرّر..."
+
+#: alarmdialog.cpp:175
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit the selected incidence"
+msgstr "حرّر الحدوث المحدّد"
+
+#: alarmdialog.cpp:177
+#, kde-format
+msgctxt "@info::whatsthis"
+msgid ""
+"Press this button if you want to edit the selected incidence.  A dialog will "
+"popup allowing you to edit the incidence."
+msgstr ""
+
+#: alarmdialog.cpp:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Suspend"
+msgstr "علّق"
+
+#: alarmdialog.cpp:181
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Suspend the reminders for the selected incidences by the specified interval"
+msgstr "علّق تذكيرات الحدوثات المحدّدة لمدّة محدّدة"
+
+#: alarmdialog.cpp:184
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button to suspend the currently selected incidences.  The suspend "
+"interval is configurable by the Suspend duration settings."
+msgstr ""
+
+#: alarmdialog.cpp:197
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid ""
+#| "Reminders: Click on a title to toggle the details viewer for that item"
+msgctxt "@label"
+msgid "Reminders: Clicking on the title toggles details for item"
+msgstr "التّذكيرات: انقر على العنوان لعرض/إخفاء عارض تفاصيل العنصر"
+
+#: alarmdialog.cpp:205
+#, kde-format
+msgctxt "@title:column reminder summary"
+msgid "Summary"
+msgstr ""
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column happens at date/time"
+msgid "Date Time"
+msgstr "التّاريخ والوقت"
+
+#: alarmdialog.cpp:206
+#, kde-format
+msgctxt "@title:column trigger date/time"
+msgid "Trigger Time"
+msgstr "وقت التّحفيز"
+
+#: alarmdialog.cpp:211
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "The event or to-do title"
+msgctxt "@info:tooltip"
+msgid "The event or to-do summary"
+msgstr "عنوان الحدث أو المهمّة"
+
+#: alarmdialog.cpp:214
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The reminder is set for this date/time"
+msgstr "التّذكير المضبوط لهذا التّاريخ/الوقت"
+
+#: alarmdialog.cpp:218
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The date/time the reminder was triggered"
+msgstr "التّاريخ والوقت الذي حُفّز فيهما التّذكير"
+
+#: alarmdialog.cpp:233
+#, kde-kuit-format
+msgctxt "@info default incidence details string"
+msgid ""
+"<emphasis>Select an event or to-do from the list above to view its details "
+"here.</emphasis>"
+msgstr ""
+"<emphasis>اختر حدثًا أو مهمّة من القائمة أعلاه لعرض تفاصيله هنا.</emphasis>"
+
+#: alarmdialog.cpp:245
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Suspend &duration:"
+msgstr "مدّة التّ&عليق:"
+
+#: alarmdialog.cpp:252
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders by this amount of time"
+msgstr "علّق التّذكيرات بهذا القدر من الوقت"
+
+#: alarmdialog.cpp:254
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended by this number "
+"of time units. You can choose the time units (typically minutes) in the "
+"adjacent selector."
+msgstr ""
+"سيُعلّق كلّ تذكير في الحدوثات المحدّدة لهذا العدد من وحدة الوقت. يمكنك اختيار "
+"وحدة الوقت (عادةً هي دقيقة) في المنتقي المجاور."
+
+#: alarmdialog.cpp:262
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "دقيقة"
+
+#: alarmdialog.cpp:263
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "ساعة"
+
+#: alarmdialog.cpp:264
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "يوم"
+
+#: alarmdialog.cpp:265
+#, kde-format
+msgctxt "@item:inlistbox suspend in terms of weeks"
+msgid "week(s)"
+msgstr "أسبوع"
+
+#: alarmdialog.cpp:266
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Suspend the reminders using this time unit"
+msgstr "علّق التّذكيرات باستخدام وحدة الوقت هذه"
+
+#: alarmdialog.cpp:268
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Each reminder for the selected incidences will be suspended using this time "
+"unit. You can set the number of time units in the adjacent number entry "
+"input."
+msgstr ""
+"سيُعلّق كلّ تذكير في الحدوثات المحدّدة باستخدام وحدة الوقت هذه. يمكنك ضبط العدد "
+"في مدخلة إدخال الأعداد المجاورة."
+
+#: alarmdialog.cpp:457
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "\"%1\" is a read-only item so modifications are not possible."
+msgctxt "@info"
+msgid "\"%1\" is a read-only incidence so modifications are not possible."
+msgstr "‏”%1“ هو عنصر للقراءة فقط والتّعديلات عليه غير ممكنة."
+
+#: alarmdialog.cpp:463
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
+msgctxt "@info"
+msgid ""
+"An internal error occurred attempting to modify \"%1\". Unsupported type."
+msgstr "حدث خطأ داخليّ في «منظّمك» أثناء محاولة تعديل ”%1“"
+
+#: alarmdialog.cpp:684
+#, kde-format
+msgctxt "@title"
+msgid "Reminder"
+msgstr "تذكير"
+
+#: alarmdialog.cpp:686 alarmdialog.cpp:689
+#, kde-format
+msgctxt "@title"
+msgid "Reminder: %1"
+msgstr "تذكير: %1"
+
+#: alarmdialog.cpp:705
+#, kde-format
+msgctxt "@info email subject, error message"
+msgid "<warning>Failed to send the Email reminder for %1. %2</warning>"
+msgstr ""
+
+#: alarmdialog.cpp:1000
+#, kde-format
+msgctxt "@info"
+msgid "Could not start KOrganizer so editing is not possible."
+msgstr "تعذّر بدء «منظّمك» فلذلك التّحرير ليس ممكنًا."
+
+#: alarmdialog.cpp:1008
+#, kde-format
+msgctxt "@info"
+msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
+msgstr "حدث خطأ داخليّ في «منظّمك» أثناء محاولة تعديل ”%1“"
+
+#: alarmdockwindow.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "KOrganizer Reminder Daemon"
+msgctxt "@title:window"
+msgid "KOrganizer Reminders"
+msgstr "عفريت التّذكير لِ‍«منظّمك»"
+
+#: alarmdockwindow.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Suspend All Reminders"
+msgctxt "@action:inmenu"
+msgid "&Suspend All Reminders"
+msgstr "علّق كلّ التّذكيرات"
+
+#: alarmdockwindow.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Dismiss All Reminders"
+msgctxt "@action:inmenu"
+msgid "&Dismiss All Reminders"
+msgstr "أهمِل كلّ التّذكيرات"
+
+#: alarmdockwindow.cpp:57
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Reminders"
+msgctxt "@action:inmenu"
+msgid "Show &Reminders"
+msgstr "التّذكيرات"
+
+#: alarmdockwindow.cpp:62
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Reminders"
+msgstr "فعّل التّذكيرات"
+
+#: alarmdockwindow.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Start Reminder Daemon at Login"
+msgstr "ابدأ عفريت التّذكير عند الولوج"
+
+#: alarmdockwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reminder Requests Focus"
+msgstr ""
+
+#: alarmdockwindow.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"When this option is enabled the reminder dialog will automatically receive "
+"keyboard focus when it opens."
+msgstr ""
+
+#: alarmdockwindow.cpp:105
+#, kde-format
+msgctxt "@info:status"
+msgid "There is 1 active reminder."
+msgid_plural "There are %1 active reminders."
+msgstr[0] "لا تذكيرات نشطة."
+msgstr[1] "هناك تذكير واحد نشط."
+msgstr[2] "هناك تذكيران نشطان."
+msgstr[3] "هناك %1 تذكيرات نشطة."
+msgstr[4] "هناك %1 تذكيرًا نشطًا."
+msgstr[5] "هناك %1 تذكير نشط."
+
+#: alarmdockwindow.cpp:107
+#, kde-format
+msgctxt "@info:status"
+msgid "No active reminders."
+msgstr "لا تذكيرات نشطة."
+
+#: alarmdockwindow.cpp:161
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to quit the KOrganizer reminder daemon?<nl/><note> you will not "
+"get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"أتريد إنهاء عفريت التّذكير لِ‍«منظّمك»؟<nl/><note> لن يمكنك أن ترى تذكيرات "
+"التّقويم إن لم يكن العفريت يعمل.</note>"
+
+#: alarmdockwindow.cpp:163 alarmdockwindow.cpp:174
+#, kde-format
+msgctxt "@title:window"
+msgid "Close KOrganizer Reminder Daemon"
+msgstr "إغلاق عفريت التّذكير لِ‍«منظّمك»"
+
+#: alarmdockwindow.cpp:172
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you want to start the KOrganizer reminder daemon at login?<nl/><note> you "
+"will not get calendar reminders unless the daemon is running.</note>"
+msgstr ""
+"أتريد بدء عفريت التّذكير لِ‍«منظّمك» عند الولوج؟<nl/><note> لن يمكنك أن ترى "
+"تذكيرات التّقويم إن لم يكن العفريت يعمل.</note>"
+
+#: alarmdockwindow.cpp:175
+#, kde-format
+msgctxt "@action:button start the reminder daemon"
+msgid "Start"
+msgstr "ابدأ"
+
+#: alarmdockwindow.cpp:176
+#, kde-format
+msgctxt "@action:button do not start the reminder daemon"
+msgid "Do Not Start"
+msgstr "لا تبدأ"
+
+#: korgacmain.cpp:36 korgacmain.cpp:38
+#, kde-format
+msgid "KOrganizer Reminder Daemon"
+msgstr "عفريت التّذكير لِ‍«منظّمك»"
+
+#: korgacmain.cpp:40
+#, kde-format
+msgid "(c) 2003 Cornelius Schumacher"
+msgstr "© ٢٠٠٣ لِ‍ Cornelius Schumacher"
+
+#: korgacmain.cpp:43
+#, kde-format
+msgid "Cornelius Schumacher"
+msgstr "Cornelius Schumacher"
+
+#: korgacmain.cpp:43 korgacmain.cpp:44
+#, kde-format
+msgid "Former Maintainer"
+msgstr "المصين السّابق"
+
+#: korgacmain.cpp:44
+#, kde-format
+msgid "Reinhold Kainhofer"
+msgstr "Reinhold Kainhofer"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: korgacmain.cpp:45
+#, kde-format
+msgid "Janitorial Staff"
+msgstr "Janitorial Staff"
+
+#: mailclient.cpp:61 mailclient.cpp:102
+#, kde-format
+msgid "No attendees specified"
+msgstr ""
+
+#: mailclient.cpp:119
+#, kde-format
+msgid "Free Busy Object"
+msgstr "كائن متفرّغ مشغول"
+
+#: mailclient.cpp:144 mailclient.cpp:166
+#, kde-format
+msgid "Free Busy Message"
+msgstr "رسالة متفرّغ مشغول"
+
+#: mailclient.cpp:199
+#, kde-format
+msgid "Unable to start the transport manager"
+msgstr ""
+
+#: mailclient.cpp:227
+#, kde-format
+msgid "Unable to determine a mail transport"
+msgstr ""
+
+#: mailclient.cpp:352
+#, kde-format
+msgid "Unable to queue the message in the outbox"
+msgstr ""
+
+#~ msgctxt "@title:column reminder title"
+#~ msgid "Title"
+#~ msgstr "العنوان"
+
+#~ msgctxt "@info"
+#~ msgid "Cannot load system tray icon."
+#~ msgstr "تعذّر تحميل أيقونة صينيّة النّظام."
+
+#, fuzzy
+#~| msgctxt "@label an elipsis"
+#~| msgid "..."
+#~ msgctxt "@label an ellipsis"
+#~ msgid "..."
+#~ msgstr "..."
